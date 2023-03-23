@@ -1,0 +1,103 @@
+
+
+/*
+.nvbar {
+  position: sticky;
+  top: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 65px;
+  background-color: #141824;
+  
+}
+
+li, a, button {
+  font-family: "Noto+Serif+TC", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__text a, button{
+  font-family: "Noto+Serif+TC", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 1%;
+}
+
+.logotext{
+  font-family: "Noto+Serif+TC", sans-serif;
+  font-weight: 600;
+  color: #edf0f1;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  max-width: 5%;
+  height: auto;
+}
+
+.nav__links {
+  margin: auto;
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+
+button {
+  background-color: rgba(0,136,169,0.8);
+}
+
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+header {
+  height: 100vh;
+  width: 100vh;
+  background-size: cover;
+}
+*/

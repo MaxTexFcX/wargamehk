@@ -1,0 +1,20 @@
+.userlisttable {
+    border: 3px solid ;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.Userlist__Title p{
+    font-size: 16px;
+}
+
+.table__display {
+    border: 3px solid black;
+}
+
+.New_User_From {
+    border: 3px solid black;
+    border-radius: 13px;
+    padding: 10px;
+    margin: 0px;
+}

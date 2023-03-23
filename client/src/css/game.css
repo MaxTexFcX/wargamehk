@@ -1,0 +1,74 @@
+.card {
+    display: block;
+    width: 18rem;
+    max-width: 18rem;
+    height: 39rem;
+    max-height: 40rem;    
+}
+
+.card-body{
+    margin-top: 0px;
+}
+
+.title__div {
+    width: 18rem;
+    height: 3rem;
+    max-height: 3rem; 
+}
+
+.game_title {
+    font-size: 20px;
+}
+
+.card img{
+    width: 18rem;
+}
+
+.information__div{
+    height: 8rem;
+    max-height: 8rem;
+}
+
+.information{
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.game__button{
+    margin-top: 30px;
+}
+
+.getinfo_btn{
+    width: 16rem;
+}
+
+.getinfo_join{
+    width: 16rem;
+}
+
+
+.displayGameList_subcontent{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.displayGameList_navtext{
+    width: 80%;
+}
+
+.displayGameList_navtext p{
+    font-weight: 600;
+}
+
+.displayGameList_btnlist{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.displayGameList_btnlist button{
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+}

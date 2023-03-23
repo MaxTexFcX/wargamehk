@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto+Sans+TC', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+.loginbody {
+    display: grid ;
+    min-height: 100vh;
+    background-color: var(--sidebar-color);
+    background-image: url(../global/WarGameHK_BG.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+}
+
+.loginform {
+    background: black;
+    opacity: 0.85;
+    border: 2px outset ;
+    border-radius: 30px;
+    border-color: var(--text-color);
+    margin: auto;
+    margin-top: 180px;
+    padding: 0;
+    width: 26%;
+}
+
+.registerform {
+    background: black;
+    opacity: 0.85;
+    border: 2px outset ;
+    border-radius: 30px;
+    border-color: var(--text-color);
+    margin: auto;
+    margin-top: 60px;
+    padding: 0;
+    width: 26%;
+}
+
+.loginform__i{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 65px;
+    width: 80%;
+}
+
+.formtext_logo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-light{
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+}
+
+.form-label {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.line {
+    margin-top: 36px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.alert-primary{
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.form_checkbox{
+    width: 25px;
+    height: 25px;
+}
