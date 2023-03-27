@@ -17,6 +17,7 @@ import { ROLES } from './config/roles'
 import Register from './features/users/Register'
 import GamesList from './features/game/GameList'
 import GameInformation from './features/game/GameInformation'
+import Selecttimer from './features/timer/Selecttimer'
 
 
 function App() {
@@ -56,6 +57,10 @@ function App() {
                                     <Route index element={<NotesList />} />
                                     <Route path=':id' element={<EditNote />} />
                                     <Route path='new' element={<NewNote />} />
+                                </Route>
+
+                                <Route path="timer">
+                                    <Route index element={<Selecttimer />} />
                                 </Route>
 
                             </Route> {/* End Dash */}

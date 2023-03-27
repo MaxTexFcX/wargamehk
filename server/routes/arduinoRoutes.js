@@ -7,6 +7,10 @@ router.route('/')
     .get(arduinoController.On)
     .post(arduinoController.Off)
 
+router.route('/timer/ports')
+    .get(arduinoController.GetPath)
 
+router.route('/connect/:port')
+    .get(arduinoController.SetPath)
 
 module.exports = router

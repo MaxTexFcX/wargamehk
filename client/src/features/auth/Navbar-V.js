@@ -141,17 +141,17 @@ const NavbarV = () => {
             </li>
 
             <li className="nav-link">
-              <a href="/dash">
-                <i className='bx bx-heart icon' ></i>
-                <span className="text nav-text">Likes</span>
-              </a>
+            <Link to="/dash/record">
+              <i className='bx bx-file icon'></i>
+                <span className="text nav-text">射擊記錄</span>
+              </Link>
             </li>
 
             <li className="nav-link">
-              <a href="/dash">
-                <i className='bx bx-wallet icon' ></i>
-                <span className="text nav-text">Wallet</span>
-              </a>
+              <Link to="/dash/timer">
+              <i className='bx bx-timer icon' ></i>
+                <span className="text nav-text">計時器</span>
+              </Link>
             </li>
 
             {(isManager || isAdmin) &&
